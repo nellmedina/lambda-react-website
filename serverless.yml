@@ -1,0 +1,12 @@
+app: website-component
+name: react-website
+org: marinellmedina1
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./build
+  domain: site2.nellmedina.com
+  region: ap-southeast-1
